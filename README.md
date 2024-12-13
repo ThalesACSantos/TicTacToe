@@ -49,15 +49,17 @@ Contribuições são bem-vindas! Se você encontrar algum bug ou tiver alguma su
 
 
 
-Explicação Detalhada:
-Inicialização:
-Variáveis: Define o tamanho da janela, o tamanho de cada célula, uma matriz para representar o tabuleiro,
+## Explicação Detalhada:
+
+##  Inicialização:
+
+### Variáveis: Define o tamanho da janela, o tamanho de cada célula, uma matriz para representar o tabuleiro,
 um dicionário para armazenar as imagens, e outras variáveis para controlar o jogo.
-Imagens: Carrega as imagens do tabuleiro, do "O" e do "X".
-Lógica do Jogo:
-Verificação de Vitória: Verifica se há três símbolos iguais em uma linha, coluna ou diagonal.
-Jogadas: Atualiza o estado do tabuleiro de acordo com a jogada do jogador.
-Desenho: Desenha o tabuleiro, os símbolos e a mensagem de vitória na tela.
-Loop Principal:
-Eventos: Verifica os eventos do teclado e do mouse.
-Atualização: Atualiza o estado do jogo e a tela.
+### Imagens: Carrega as imagens do tabuleiro, do "O" e do "X".
+## Lógica do Jogo:
+### Verificação de Vitória: Verifica se há três símbolos iguais em uma linha, coluna ou diagonal.
+### Jogadas: Atualiza o estado do tabuleiro de acordo com a jogada do jogador.
+### Desenho: Desenha o tabuleiro, os símbolos e a mensagem de vitória na tela.
+## Loop Principal:
+### Eventos: Verifica os eventos do teclado e do mouse.
+## Atualização: Atualiza o estado do jogo e a tela.
