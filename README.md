@@ -25,8 +25,8 @@ Este projeto implementa um clássico jogo da velha utilizando a biblioteca Pygam
   * `TicTacToe`: Controla a lógica principal do jogo, como o tabuleiro, as jogadas e a verificação de vitória.
   * `Game`: Cria a janela do jogo, gerencia eventos e o loop principal.
 * **Módulos:**
-  * `pygame`: Utilizado para criar a interface gráfica e lidar com eventos.
-  * `sys`: Utilizado para sair do jogo quando necessário.
+  * `pygame`: Biblioteca de jogos, Utilizado para criar a interface gráfica e lidar com eventos.
+  * `sys`: Módulo para interagir com o interpretador Python, utilizado para sair do jogo quando necessário.
   * `random`: Utilizado para gerar números aleatórios para as jogadas do computador.
 
 ## Contribuições
@@ -48,17 +48,11 @@ Contribuições são bem-vindas! Se você encontrar algum bug ou tiver alguma su
 * **Agradecimentos:** Agradeço a todos que tenham contribuído para o projeto.
 
 
-Estrutura Geral:
-Classes: O código utiliza duas classes principais: TicTacToe e Game.
-TicTacToe: Controla toda a lógica do jogo, como o tabuleiro, as jogadas, a verificação de vitória e o desenho dos elementos na tela.
-Game: Cria a janela do jogo, controla o loop principal e gerencia eventos como o clique do mouse e o pressionamento de teclas.
-Módulos: Importa os módulos pygame, sys e random.
-pygame: Biblioteca para criar jogos em Python.
-sys: Módulo para interagir com o interpretador Python.
-random: Módulo para gerar números aleatórios.
+
 Explicação Detalhada:
 Inicialização:
-Variáveis: Define o tamanho da janela, o tamanho de cada célula, uma matriz para representar o tabuleiro, um dicionário para armazenar as imagens, e outras variáveis para controlar o jogo.
+Variáveis: Define o tamanho da janela, o tamanho de cada célula, uma matriz para representar o tabuleiro,
+um dicionário para armazenar as imagens, e outras variáveis para controlar o jogo.
 Imagens: Carrega as imagens do tabuleiro, do "O" e do "X".
 Lógica do Jogo:
 Verificação de Vitória: Verifica se há três símbolos iguais em uma linha, coluna ou diagonal.
