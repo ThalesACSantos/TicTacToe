@@ -1,11 +1,25 @@
+# Importa a biblioteca Pygame com o alias 'pg' para facilitar o uso
 import pygame as pg
+
+# Importa o módulo sys para interagir com o interpretador Python (por exemplo, para sair do jogo)
 import sys
+
+# Importa a função randint do módulo random para gerar números aleatórios
 from random import randint
 
+# Define o tamanho da janela do jogo em pixels
 WIN_SIZE = 900
+
+# Calcula o tamanho de cada célula do tabuleiro dividindo o tamanho da janela pelo número de colunas/linhas
 CELL_SIZE = WIN_SIZE // 3
+
+# Define um valor infinito (usado para representar células vazias no tabuleiro)
 INF = float('inf')
+
+# Cria um alias para a classe Vector2 do módulo pygame.math para facilitar o uso
 vec2 = pg.math.Vector2
+
+# Calcula as coordenadas do centro de uma célula
 CELL_CENTER = vec2(CELL_SIZE / 2)
 
 
